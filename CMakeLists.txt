@@ -199,6 +199,10 @@ target_include_directories(ccpp_physics PUBLIC
 
 target_link_libraries(ccpp_physics PUBLIC w3nco::w3nco_d NetCDF::NetCDF_Fortran)
 
+if(DEFINED ENV{ESMF_RUNTIME_PROFILE})
+  target_link_libraries(ccpp_physics PUBLIC esmf)
+endif()
+
 # Define where to install the library
 install(TARGETS ccpp_physics
         EXPORT ccpp_physics-targets
