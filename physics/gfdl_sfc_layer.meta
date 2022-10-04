@@ -1,7 +1,7 @@
 [ccpp-table-properties]
   name = gfdl_sfc_layer
   type = scheme
-  dependencies = machine.F,module_sf_exchcoef.f90,namelist_soilveg_ruc.F90,noahmp_tables.f90
+  dependencies = machine.F,module_sf_exchcoef.f90,namelist_soilveg_ruc.F90,noahmp/drivers/ccpp/noahmp_tables.f90
 
 ########################################################################
 [ccpp-arg-table]

@@ -2,3 +2,7 @@
   path = physics/rte-rrtmgp
   url = https://github.com/earth-system-radiation/rte-rrtmgp
   branch = dtc/ccpp
+[submodule "physics/noahmp"]
+  path = physics/noahmp
+  url = https://github.com/esmf-org/noahmp
+  branch = feature/nuopc_cap_new
